@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Product Animations</title>
+  
+
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #202124;
+      background: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    main {
+      width: min(820px, 100%);
+      margin: 28px auto;
+      padding: 58px 28px 60px;
+      background: white;
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 1.6rem;
+      text-align: center;
+      font-size: 1.65rem;
+    }
+
+    .video-section {
+      margin-bottom: 3.2rem;
+    }
+
+    .video-title {
+      margin: 0 0 0.6rem;
+    
+    }
+
+    
+
+    video {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .back-home {
+      margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      :root {
+        font-size: 16px;
+      }
+
+      main {
+        padding: 34px 18px 40px;
+      }
+
+      .video-section {
+        margin-bottom: 2.6rem;
+      }
+    }
+
+    @media print {
+      main {
+        width: 100%;
+        padding: 0;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Area from Circumference</h1>
+     <p style="margin-bottom: 2em;">
+      This animation was vibe-coded with AI and built using Manim, which was created by
+      <a href="https://en.wikipedia.org/wiki/3Blue1Brown">Grant Sanderson</a>.
+    </p>
+
+    <section class="video-section">
+      
+The polygon of n sides is circumscribed about the circle. As n increases without bound, the perimeter and area of the polygon tends to the circumference and area of the circle.
+      <video controls preload="metadata">
+        <source src="AreafromCircumference.mp4" type="video/mp4">
+        Your browser does not support embedded video.
+      </video>
+    </section>
+
+   
+    <p class="back-home">
+      <a href="https://sites.google.com/view/ustudentresourcesl/calculus-iii">
+        ← Back to Calculus III
+      </a>
+    </p>
+  </main>
+</body>
+</html>
